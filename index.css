@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.Main{
+    background-image: url(../assets/pexels-markus-spiske-113850.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.DarkerWrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.434);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+} 
+
+.Content{
+    color: white;
+    height: 78%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Writeup{
+    width: 95%;
+    height: 25vh;
+}
+
+.Writeup > h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+}
+
+.Writeup > h5{
+    padding: 10px;
+}
+
+.Right{
+    width: 37%;
+    height: 95%;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.Form{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    color: black;
+    margin-left: 30px;
+}
+
+input{
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid red;
+    padding-left: 10px;
+}
+
+h5{
+    color: red;
+    padding-bottom: 15px;
+}
+
+button{
+    width: 370px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: white;
+}
+
+.Sign > label{
+    display: flex;
+    align-items: center;
+}
+
+.Sign > label > input{
+    width: 15px;
+    height: 15px;
+}
+
+.line{
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 370px;
+}
+
+.footer{
+    margin-right: 65%; 
+    color: white;
+}
